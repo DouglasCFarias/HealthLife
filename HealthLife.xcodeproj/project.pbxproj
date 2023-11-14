@@ -77,6 +77,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6498F1882B04220B008C8592 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64C3B61C2AFDA7C900065E20 /* HealthLifeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6498F1892B042223008C8592 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6498F18F2B042269008C8592 /* Modifiers */,
+				6498F18E2B04225C008C8592 /* Styles */,
+				6498F18D2B042253008C8592 /* Helpers */,
+				6498F18C2B042246008C8592 /* Extensions */,
+				6498F18B2B04223C008C8592 /* Components */,
+				6498F18A2B04222E008C8592 /* Protocols */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6498F18A2B04222E008C8592 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6498F18B2B04223C008C8592 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6498F18C2B042246008C8592 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6498F18D2B042253008C8592 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6498F18E2B04225C008C8592 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		6498F18F2B042269008C8592 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		6498F1902B04228F008C8592 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6498F1912B0422D1008C8592 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6498F1922B0422E6008C8592 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		64C3B6102AFDA7C900065E20 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +184,15 @@
 		64C3B61B2AFDA7C900065E20 /* HealthLife */ = {
 			isa = PBXGroup;
 			children = (
-				64C3B61C2AFDA7C900065E20 /* HealthLifeApp.swift */,
+				6498F1882B04220B008C8592 /* App */,
 				64C3B61E2AFDA7C900065E20 /* ContentView.swift */,
 				64C3B64D2AFDA9F400065E20 /* HomeView.swift */,
-				64C3B6202AFDA7CA00065E20 /* Assets.xcassets */,
 				64C3B6252AFDA7CA00065E20 /* Persistence.swift */,
+				6498F1892B042223008C8592 /* Utils */,
+				6498F1912B0422D1008C8592 /* Services */,
+				6498F1902B04228F008C8592 /* Features */,
+				6498F1922B0422E6008C8592 /* Resources */,
+				64C3B6202AFDA7CA00065E20 /* Assets.xcassets */,
 				64C3B6272AFDA7CA00065E20 /* HealthLife.xcdatamodeld */,
 				64C3B6222AFDA7CA00065E20 /* Preview Content */,
 			);
