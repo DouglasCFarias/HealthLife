@@ -21,7 +21,9 @@ struct HomeView: View {
                     .frame(width: 342, height: 99)
                 Text("Water Counter")
                     .bold()
-
+                Image("icon_water")
+                    .padding(.trailing, 210)
+                
             }
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
@@ -29,8 +31,10 @@ struct HomeView: View {
                     .frame(width: 342, height: 99)
                 Text("Step Counter")
                     .bold()
+                Image("icon_feet")
+                    .padding(.trailing, 210)
             }
-            }
+        }
         .padding(.top, -250)
         .navigationTitle("Home")
         .navigationBarTitleDisplayMode(.inline)
@@ -41,3 +45,4 @@ struct HomeView: View {
 #Preview {
     HomeView()
 }
+
