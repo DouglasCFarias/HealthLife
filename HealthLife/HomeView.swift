@@ -17,16 +17,20 @@ struct HomeView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
                 
-                    .foregroundStyle(Color(.red))
+                    .foregroundStyle(Color("card_watercounter"))
                     .frame(width: 342, height: 99)
                 Text("Water Counter")
                     .bold()
 
             }
-            RoundedRectangle(cornerRadius: 10)
-                .foregroundStyle(Color(.blue))
-                .frame(width: 342, height: 99)
-        }
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .foregroundStyle(Color("card_stepcounter"))
+                    .frame(width: 342, height: 99)
+                Text("Step Counter")
+                    .bold()
+            }
+            }
         .padding(.top, -250)
         .navigationTitle("Home")
         .navigationBarTitleDisplayMode(.inline)
