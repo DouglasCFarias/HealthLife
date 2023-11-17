@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640A009D2B06CE3C008777DC /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A009C2B06CE3C008777DC /* TabBarView.swift */; };
+		640A009F2B06E1EC008777DC /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A009E2B06E1EB008777DC /* SettingsViewModel.swift */; };
+		640A00A12B06E244008777DC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A00A02B06E244008777DC /* SettingsView.swift */; };
+		640A00A32B06E2D2008777DC /* RadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A00A22B06E2D2008777DC /* RadiusButton.swift */; };
 		64C3B61D2AFDA7C900065E20 /* HealthLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B61C2AFDA7C900065E20 /* HealthLifeApp.swift */; };
 		64C3B61F2AFDA7C900065E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B61E2AFDA7C900065E20 /* ContentView.swift */; };
 		64C3B6212AFDA7CA00065E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3B6202AFDA7CA00065E20 /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		640A009C2B06CE3C008777DC /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		640A009E2B06E1EB008777DC /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		640A00A02B06E244008777DC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		640A00A22B06E2D2008777DC /* RadiusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusButton.swift; sourceTree = "<group>"; };
 		64C3B6192AFDA7C900065E20 /* HealthLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C3B61C2AFDA7C900065E20 /* HealthLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLifeApp.swift; sourceTree = "<group>"; };
 		64C3B61E2AFDA7C900065E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640A00A42B06E73A008777DC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				640A00A02B06E244008777DC /* SettingsView.swift */,
+				640A009E2B06E1EB008777DC /* SettingsViewModel.swift */,
+				640A00A22B06E2D2008777DC /* RadiusButton.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		640A00A52B06E75F008777DC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				640A009C2B06CE3C008777DC /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		6498F1882B04220B008C8592 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +169,8 @@
 		6498F1902B04228F008C8592 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				640A00A52B06E75F008777DC /* TabBar */,
+				640A00A42B06E73A008777DC /* Settings */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -355,10 +383,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C3B6262AFDA7CA00065E20 /* Persistence.swift in Sources */,
+				640A00A12B06E244008777DC /* SettingsView.swift in Sources */,
+				640A00A32B06E2D2008777DC /* RadiusButton.swift in Sources */,
 				64C3B6292AFDA7CA00065E20 /* HealthLife.xcdatamodeld in Sources */,
 				64C3B61F2AFDA7C900065E20 /* ContentView.swift in Sources */,
 				64C3B64E2AFDA9F400065E20 /* HomeView.swift in Sources */,
+				640A009D2B06CE3C008777DC /* TabBarView.swift in Sources */,
 				64C3B61D2AFDA7C900065E20 /* HealthLifeApp.swift in Sources */,
+				640A009F2B06E1EC008777DC /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

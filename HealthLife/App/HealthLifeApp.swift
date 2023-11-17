@@ -10,12 +10,16 @@ import SwiftUI
 @main
 struct HealthLifeApp: App {
     let persistenceController = PersistenceController.shared
-
+    @State var selectedTab: Tab = .home
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            HomeView()
-                //.environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabBarView(selectedTab: $selectedTab){
+                
+            }  
+        profilesView: { HomeView()
+
+        }
+            //.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
