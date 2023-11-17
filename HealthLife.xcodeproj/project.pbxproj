@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64882D8C2B06C8A400978A38 /* Water view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64882D8B2B06C8A400978A38 /* Water view.swift */; };
+		64882D8E2B06E13B00978A38 /* 1 Water view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64882D8D2B06E13B00978A38 /* 1 Water view.swift */; };
+		64882D902B06EBC300978A38 /* Water Viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64882D8F2B06EBC300978A38 /* Water Viewmodel.swift */; };
 		64C3B61D2AFDA7C900065E20 /* HealthLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B61C2AFDA7C900065E20 /* HealthLifeApp.swift */; };
 		64C3B61F2AFDA7C900065E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B61E2AFDA7C900065E20 /* ContentView.swift */; };
 		64C3B6212AFDA7CA00065E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3B6202AFDA7CA00065E20 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64882D8B2B06C8A400978A38 /* Water view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Water view.swift"; sourceTree = "<group>"; };
+		64882D8D2B06E13B00978A38 /* 1 Water view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1 Water view.swift"; sourceTree = "<group>"; };
+		64882D8F2B06EBC300978A38 /* Water Viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Water Viewmodel.swift"; sourceTree = "<group>"; };
 		64C3B6192AFDA7C900065E20 /* HealthLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C3B61C2AFDA7C900065E20 /* HealthLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLifeApp.swift; sourceTree = "<group>"; };
 		64C3B61E2AFDA7C900065E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64882D8A2B06C89000978A38 /* Feature Water */ = {
+			isa = PBXGroup;
+			children = (
+				64882D8D2B06E13B00978A38 /* 1 Water view.swift */,
+				64882D8B2B06C8A400978A38 /* Water view.swift */,
+				64882D8F2B06EBC300978A38 /* Water Viewmodel.swift */,
+			);
+			path = "Feature Water";
+			sourceTree = "<group>";
+		};
 		6498F1882B04220B008C8592 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +159,7 @@
 		6498F1902B04228F008C8592 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				64882D8A2B06C89000978A38 /* Feature Water */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -356,9 +373,12 @@
 			files = (
 				64C3B6262AFDA7CA00065E20 /* Persistence.swift in Sources */,
 				64C3B6292AFDA7CA00065E20 /* HealthLife.xcdatamodeld in Sources */,
+				64882D8E2B06E13B00978A38 /* 1 Water view.swift in Sources */,
 				64C3B61F2AFDA7C900065E20 /* ContentView.swift in Sources */,
 				64C3B64E2AFDA9F400065E20 /* HomeView.swift in Sources */,
 				64C3B61D2AFDA7C900065E20 /* HealthLifeApp.swift in Sources */,
+				64882D8C2B06C8A400978A38 /* Water view.swift in Sources */,
+				64882D902B06EBC300978A38 /* Water Viewmodel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
