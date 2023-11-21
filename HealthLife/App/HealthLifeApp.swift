@@ -14,12 +14,17 @@ struct HealthLifeApp: App {
     var body: some Scene {
         WindowGroup {
             TabBarView(selectedTab: $selectedTab){
-                
-            }  
-        profilesView: { HomeView()
-
-        }
-            //.environment(\.managedObjectContext, persistenceController.container.viewContext)
+                NavigationStack {
+                    SettingsView()
+                    
+                }
+            } profilesView: {
+                NavigationStack {
+                   // HomeView()
+                    StepCounterView()
+                }
+                .navigationTitle("HealthLife")
+            }
         }
     }
 }

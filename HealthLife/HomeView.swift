@@ -63,7 +63,6 @@ struct HomeView: View {
                         .padding(.trailing, 210)
                 }
             }
-           // Spacer()
         }
         .padding(.top, -250)
         .navigationTitle("Home")

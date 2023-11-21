@@ -17,20 +17,20 @@ struct TabBarView<Settings: View, Profiles: View>: View {
             profilesView()
                 .tabItem {
                     Label {
-                        //Text(Tab.home.rawValue)
-                          //  .foregroundColor(.white)
+//                        Text(Tab.home.rawValue)
+//                            .foregroundColor(.white)
                     } icon: {
                         Image(selectedTab == .home ? "icon_home" : "icon_home")
                     }
                 }
                 .toolbarBackground(.visible, for: .tabBar)
-                .toolbarBackground(Color(.white), for: .tabBar)
+                .toolbarBackground(Color(.red), for: .tabBar)
                 .tag(Tab.home)
             settingsView()
                 .tabItem {
                     Label {
-                        //Text(Tab.settings.rawValue)
-                            //.foregroundColor(.white)
+//                        Text(Tab.settings.rawValue)
+//                            .foregroundColor(.white)
                     } icon: {
                         Image(selectedTab == .settings ? "icon_config" : "icon_config")
                     }
@@ -38,7 +38,7 @@ struct TabBarView<Settings: View, Profiles: View>: View {
                 .toolbarBackground(.visible, for: .tabBar)
                 .toolbarBackground(Color(.white), for: .tabBar)
                 .tag(Tab.settings)
-        } .accentColor(Color("primary_colors"))
+        } .accentColor(Color(.white))
     }
 }
 

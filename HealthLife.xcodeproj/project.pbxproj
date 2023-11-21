@@ -21,6 +21,7 @@
 		64C3B63D2AFDA7CA00065E20 /* HealthLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B63C2AFDA7CA00065E20 /* HealthLifeUITests.swift */; };
 		64C3B63F2AFDA7CA00065E20 /* HealthLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B63E2AFDA7CA00065E20 /* HealthLifeUITestsLaunchTests.swift */; };
 		64C3B64E2AFDA9F400065E20 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3B64D2AFDA9F400065E20 /* HomeView.swift */; };
+		64F66C442B0C2DD000616C1B /* StepCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F66C432B0C2DD000616C1B /* StepCounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		64C3B63C2AFDA7CA00065E20 /* HealthLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLifeUITests.swift; sourceTree = "<group>"; };
 		64C3B63E2AFDA7CA00065E20 /* HealthLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64C3B64D2AFDA9F400065E20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64F66C432B0C2DD000616C1B /* StepCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		6498F1902B04228F008C8592 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				64F66C422B0C2DB000616C1B /* StepCounter */,
 				640A00A52B06E75F008777DC /* TabBar */,
 				640A00A42B06E73A008777DC /* Settings */,
 			);
@@ -250,6 +253,14 @@
 				64C3B63E2AFDA7CA00065E20 /* HealthLifeUITestsLaunchTests.swift */,
 			);
 			path = HealthLifeUITests;
+			sourceTree = "<group>";
+		};
+		64F66C422B0C2DB000616C1B /* StepCounter */ = {
+			isa = PBXGroup;
+			children = (
+				64F66C432B0C2DD000616C1B /* StepCounterView.swift */,
+			);
+			path = StepCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +398,7 @@
 				640A00A32B06E2D2008777DC /* RadiusButton.swift in Sources */,
 				64C3B6292AFDA7CA00065E20 /* HealthLife.xcdatamodeld in Sources */,
 				64C3B61F2AFDA7C900065E20 /* ContentView.swift in Sources */,
+				64F66C442B0C2DD000616C1B /* StepCounterView.swift in Sources */,
 				64C3B64E2AFDA9F400065E20 /* HomeView.swift in Sources */,
 				640A009D2B06CE3C008777DC /* TabBarView.swift in Sources */,
 				64C3B61D2AFDA7C900065E20 /* HealthLifeApp.swift in Sources */,
