@@ -17,16 +17,17 @@ struct StepCounterView: View {
         .onAppear {
             locationManager.requestWhenInUseAuthorization()
         }
-        .frame(width: 394, height: 419)
-        .padding(.bottom, 250)
+        .frame(width: 394, height: 319)
+        .padding(.bottom, 310)
         // Spacer()
         VStack{
             Text("Tempo")
                 .bold()
+            Stopwatch()
             
         }
-        .padding(.top, -250)
-        .font(.system(size: 15))
+        .padding(.top, -280)
+        //.font(.system(size: 15))
         
         
         

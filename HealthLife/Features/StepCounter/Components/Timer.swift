@@ -49,24 +49,10 @@ struct Stopwatch: View {
                 }) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 15.0)
-                            .frame(width: 120, height: 50, alignment: .center)
+                            .frame(width: 110, height: 40, alignment: .center)
                             .foregroundColor(isRunning ? .blue : .black)
-
+                        
                         Text(isRunning ? "Stop" : "Start")
-                            .font(.title)
-                            .foregroundColor(.white)
-                    }
-                }
-
-                Button(action: {
-                    progressTime = 0
-                }) {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 15.0)
-                            .frame(width: 120, height: 50, alignment: .center)
-                            .foregroundColor(.gray)
-
-                        Text("Reset")
                             .font(.title)
                             .foregroundColor(.white)
                     }
@@ -96,20 +82,20 @@ struct StopwatchUnit: View {
                 RoundedRectangle(cornerRadius: 15.0)
                     .stroke(style: StrokeStyle(lineWidth: 3, lineCap: .round))
                     .fill(color)
-                    .frame(width: 75, height: 75, alignment: .center)
+                    .frame(width: 60, height: 60, alignment: .center)
 
                 HStack(spacing: 2) {
                     Text(timeUnitStr.substring(index: 0))
-                        .font(.system(size: 48))
+                        .font(.system(size: 30))
                         .frame(width: 28)
                     Text(timeUnitStr.substring(index: 1))
-                        .font(.system(size: 48))
+                        .font(.system(size: 30))
                         .frame(width: 28)
                 }
             }
 
             Text(timeUnitText)
-                .font(.system(size: 16))
+                .font(.system(size: 13))
         }
     }
 }
